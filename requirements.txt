@@ -1,0 +1,14 @@
+# Tested with Python 3.12.4. The notebook checks the first eight packages.
+numpy==2.3.5
+pandas==2.2.3
+scipy==1.17.0
+scikit-learn==1.7.2
+xgboost==3.0.5
+plotly==5.24.1
+joblib==1.5.3
+nbformat==5.10.4
+# Needed so pandas imports cleanly against NumPy 2 on this environment.
+pyarrow==26.0.0
+numexpr==2.14.2
+bottleneck==1.6.0
+ipykernel==6.28.0

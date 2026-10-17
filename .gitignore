@@ -1,0 +1,36 @@
+# Raw PaySim extract. See data/README.md.
+data/*.csv
+data/*.zip
+Dataset/
+
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.python-version
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets and local environment files
+.env
+.env.*
+*.pem
+credentials.json
+secrets.json
+
+# Optional model exports from the notebook
+xgboost_results/
+*.joblib
+*.pkl
+*.bin
+
+# Editor and operating system files
+.DS_Store
+.idea/
+.vscode/
+*.tmp
+*.swp

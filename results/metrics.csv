@@ -1,0 +1,10 @@
+kind,name,model,threshold,population,true_positives,false_positives,false_negatives,true_negatives,flags,precision,recall,evidence
+population,total_records,,,6362620,,,,,,,,executed notebook load
+population,fraud_records,,,8213,,,,,,,,executed notebook class summary
+population,training_records,,,5090096,,,,,,,,executed notebook split
+population,test_records,,,1272524,,,,,,,,executed notebook split
+population,test_fraud_records,,,1620,,,,,,,,executed notebook split
+population,random_seed,,,42,,,,,,,,settings cell
+evaluation,baseline,baseline,0.50,,1603,1848,17,1269056,3451,0.464503,0.989506,executed notebook at cutoff 0.50
+evaluation,optimized,optimized,0.50,,1597,1738,23,1269166,3335,0.478861,0.985802,executed notebook at cutoff 0.50
+evaluation,optimized,optimized,0.90,,1554,598,66,1270306,2152,0.722119,0.959259,executed notebook at cutoff 0.90
